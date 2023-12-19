@@ -12,3 +12,7 @@ The first step consists in training a generative model of persons, conditioned o
 <p align="center">
   <img src="cond_github1.png" width="700" title="conditional generation">
 </p>
+
+On the left, we show three sample identities taken from the Market1501 dataset. Then, we sample 5 random noises, and for each of them we generate an image conditioned by the given identity; the noise in each column is always the same.
+
+Since 
