@@ -7,7 +7,8 @@ In this work, we explores an alternative approach, where the representation of a
 
 -----
 
-The first step consists in training a generative model of persons, conditioned over the identity of the person.
+The first step consists in training a generative model of persons, conditioned over the identity of the person, as described in the following Figure.
 
-[]()
-
+<p align="center">
+  <img src="cond_github1.png" width="700" title="conditional generation">
+</p>
