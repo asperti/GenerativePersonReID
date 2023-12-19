@@ -24,3 +24,9 @@ The next step consits in inverting the generative model. In this way, starting f
 <p align="center">
   <img src="recon_github2.png" width="700" title="image reconstruction">
 </p>
+
+In the fist row we have original gallery images, in the middle row the corresponing noises synthesized by inversion, and in the third row the reconstructed images.
+
+The generative model typically induces a well structured latent space, where similar persons should result in similar encodings.
+The identity extracted from the query image can be hence compared with the latent representatons of the gallery images for re-identification purposes. 
+As usual of generative models, 
