@@ -21,4 +21,6 @@ we need to learn it, and we use an auxiliary small generative model for this pur
 ------
 The next step consits in inverting the generative model. In this way, starting from an image, we can extract the latent representtion of the person identity and the underlying "noise", captruing, in principle, all inforamtion not related to the specific identity.
 
-
+<p align="center">
+  <img src="recon_github2.png" width="700" title="image reconstruction">
+</p>
