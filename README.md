@@ -15,4 +15,10 @@ The first step consists in training a generative model of persons, conditioned o
 
 On the left, we show three sample identities taken from the Market1501 dataset. Then, we sample 5 random noises, and for each of them we generate an image conditioned by the given identity; the noise in each column is always the same.
 
-Since 
+Since the distribution of the latent representation of the identities in the latent space is unknown,
+we need to learn it, and we use an auxiliary small generative model for this purpose. 
+
+------
+The next step consits in inverting the generative model. In this way, starting from an image, we can extract the latent representtion of the person identity and the underlying "noise", captruing, in principle, all inforamtion not related to the specific identity.
+
+
