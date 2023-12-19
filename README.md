@@ -29,4 +29,5 @@ In the fist row we have original gallery images, in the middle row the correspon
 
 The generative model typically induces a well structured latent space, where similar persons should result in similar encodings.
 The identity extracted from the query image can be hence compared with the latent representatons of the gallery images for re-identification purposes. 
-As usual of generative models, 
+
+------
