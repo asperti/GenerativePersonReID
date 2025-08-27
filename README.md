@@ -1,3 +1,8 @@
+---
+paper: https://www.mdpi.com/1424-8220/24/4/1240
+repository: https://github.com/asperti/GenerativePersonReID/
+---
+
 # GenerativePersonReID
 **A generative approach to person re-identification**
 
